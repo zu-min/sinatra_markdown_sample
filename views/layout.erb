@@ -3,16 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Documents</title>
+
+  <link rel="stylesheet" href="/css/github.css">
 </head>
 <body>
-  <div>
-    <% @filenames.each do |filename| %>
-      <div>
-        <a href="/<%= filename %>"><%= filename %></a>
-      </div>
-      <% end %>
-  </div>
-<div>
+</div>
+  <a href="/">Top</a>
   <%= yield %>
 </div>
 </body>

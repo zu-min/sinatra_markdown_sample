@@ -1,0 +1,8 @@
+<h1>Top Page</h1>
+<div>
+  <% @filenames.each do |filename| %>
+    <div>
+      <a href="/<%= filename %>"><%= filename %></a>
+    </div>
+    <% end %>
+</div>
